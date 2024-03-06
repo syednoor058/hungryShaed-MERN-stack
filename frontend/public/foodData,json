@@ -1,0 +1,72 @@
+[
+  {
+    "categoryName": "Burger",
+    "name": "Beef Nagga Burger",
+    "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?q=80&w=1590&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "option": [
+      {
+        "Single Patty": "18.99",
+        "Double Patty": "24.99",
+        "Single Patty + Cola": "23.99",
+        "Double Patty + Cola": "29.99"
+      }
+    ],
+    "desc": "A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor."
+  },
+  {
+    "categoryName": "Burger",
+    "name": "Chicken Nagga Burger",
+    "image": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "option": [
+      {
+        "Single Patty": "14.99",
+        "Double Patty": "20.99",
+        "Single Patty + Cola": "19.99",
+        "Double Patty + Cola": "25.99"
+      }
+    ],
+    "desc": "Juicy, big, loaded with toppings of my choice. High quality beef medium to well with cheese and bacon on a multigrain bun. A huge single or triple burger with all the fixings, cheese, lettuce, tomato, onions and special sauce or mayonnaise!"
+  },
+  {
+    "categoryName": "Burger",
+    "name": "HamNCheese Burger",
+    "image": "https://images.unsplash.com/photo-1552913902-366e726db79e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "option": [
+      {
+        "Single Patty": "12.99",
+        "Double Patty": "18.99",
+        "Single Patty + Cola": "17.99",
+        "Double Patty + Cola": "23.99"
+      }
+    ],
+    "desc": "A cheeseburger is a hamburger with a slice of melted cheese on top of the meat patty, added near the end of the cooking time."
+  },
+  {
+    "categoryName": "Burger",
+    "name": "Korean BBQ Burger",
+    "image": "https://images.unsplash.com/photo-1547584370-2cc98b8b8dc8?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "option": [
+      {
+        "Single Patty": "27.99",
+        "Double Patty": "32.99",
+        "Single Patty + Cola": "31.99",
+        "Double Patty + Cola": "36.99"
+      }
+    ],
+    "desc": "The Korean BBQ burger combines a beef patty marinated in a sweet and spicy Korean BBQ sauce with traditional Korean accompaniments like kimchi, pickled vegetables, and gochujang (a spicy red pepper paste)."
+  },
+  {
+    "categoryName": "Burger",
+    "name": "Salmon Burger",
+    "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "option": [
+      {
+        "Single Patty": "32.99",
+        "Double Patty": "38.99",
+        "Single Patty + Cola": "36.99",
+        "Double Patty + Cola": "42.99"
+      }
+    ],
+    "desc": "Salmon burgers are believed to have originated in the Middle East, where people have been eating fish burgers for centuries. Some historians believe that an ancient Egyptian chef wrote the first recorded salmon burger recipe."
+  }
+]

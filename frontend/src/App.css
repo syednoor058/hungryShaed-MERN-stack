@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.hero-section {
+  background-image: url(./assets/hero_background.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: -5rem;
+  padding-top: 10rem;
+  padding-left: 2.5rem;
+}
+
+.why-us-col {
+  -webkit-box-shadow: -15px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -15px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -15px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  margin: 0 1rem;
+}
+
+.card-shadow {
+  -webkit-box-shadow: -15px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -15px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -15px 15px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+Footer {
+  background-image: url(./assets/footer_bg.png);
+  background-size: cover;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.input-box {
+  background: transparent;
+}
+.login-form input {
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.sign-up-form input {
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.get-in-touch-form input {
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.get-in-touch-form textarea {
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+/* .form-div input::placeholder {
+  color: #00bc8c;
+}
+.form-div textarea::placeholder {
+  color: #00bc8c;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .hero-section {
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .hero-sm-col1 {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .pb-sm {
+    padding-bottom: 2rem;
+  }
+
+  .pt-sm-5 {
+    padding-top: 1rem !important;
+  }
+
+  .words-sec-sm {
+    text-align: center;
+  }
+
+  .words-sm-col1 {
+    padding-bottom: 1.5rem;
+  }
+
+  .work-sm-col2 {
+    padding-top: 1.5rem !important;
+    text-align: center;
+  }
+
+  .home-info-card-sm {
+    margin: 0 !important;
+  }
+  .ceo-img-sm {
+    justify-content: center !important;
+  }
+  .ceo-name-sm {
+    justify-content: center !important;
+    padding-bottom: 0 !important;
+    padding-top: 1.5rem;
+    margin: 0 !important;
+  }
+
+  .p-sm {
+    font-size: 1rem !important;
+  }
+
+  .work-img-sm {
+    width: 100% !important;
+  }
+
+  .words-sm-quote-1 {
+    margin-right: 0px !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .words-sm-quote-2 {
+    margin: 0px !important;
+  }
+
+  .footer-pad-sm {
+    padding-bottom: 2rem !important;
+  }
+
+  .login-label-sm {
+    margin-top: 1rem;
+  }
+
+  .get-in-touch-img-sm {
+    margin-bottom: 3rem;
+  }
+}
