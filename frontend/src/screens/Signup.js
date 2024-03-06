@@ -23,7 +23,7 @@ export default function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     axios
-      .post("http://127.0.0.1:5000/api/create-user", userInfo)
+      .post("http://hungry-shaed-mern-stack-api.vercel.app/api/create-user", userInfo)
       .then((response) => {
         console.log(response);
         navigate("/login");
