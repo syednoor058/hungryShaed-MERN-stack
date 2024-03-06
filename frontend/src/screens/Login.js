@@ -20,7 +20,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     axios
-      .post("http://hungry-shaed-mern-stack-api.vercel.app/api/login-user", userInfo)
+      .post("https://hungry-shaed-mern-stack-api.vercel.app/api/login-user", userInfo)
       .then(async (response) => {
         localStorage.setItem("userEmail", userInfo.email);
         localStorage.setItem("authToken", response.data.authToken);
