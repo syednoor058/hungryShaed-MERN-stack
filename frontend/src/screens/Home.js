@@ -28,7 +28,7 @@ export default function Home() {
     //   });
 
     try {
-      const response = await fetch("http://hungry-shaed-mern-stack-api.vercel.app/api/food-data", {
+      const response = await fetch("https://hungry-shaed-mern-stack-api.vercel.app/api/food-data", {
         method: "POST",
       });
       if (response.ok) {
